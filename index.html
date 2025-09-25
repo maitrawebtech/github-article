@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Article - Founder of Maitra Web Tech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- SEO Keywords -->
+<meta name="keywords" content="Website Builder, Free Website, Ishan Maitra, Maitra Web Tech, website design, HTML CSS design, landing page, portfolio site, e-commerce website, Maitra Web Tech, Maitra Web Tech Founder, Website Builder, Ishan Maitra Articles, CEO M.W.T, Web Designer, Web Developer, Front-end Developer, HTML CSS JavaScript, Portfolio Website, Premium Web Design, Landing Page, Business Website, Responsive Design">    
+<meta name="twitter:card" content="summary_large_image">
+    <title>GitHub Article - Founder of Maitra Web Tech</title>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Cyberpunk Color Palette */
+        :root {
+            --neon-blue: #00f3ff;
+            --neon-pink: #ff00ff;
+            --neon-purple: #9d00ff;
+            --dark-bg: #0a0a16;
+            --card-bg: rgba(16, 16, 32, 0.8);
+            --text-glow: rgba(0, 243, 255, 0.7);
+        }
+        
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--dark-bg);
+            color: #e0e0ff;
+            line-height: 1.6;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(157, 0, 255, 0.1) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(0, 243, 255, 0.1) 0%, transparent 20%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* Typography */
+        h1, h2, h3 {
+            color: #ffffff;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 10px var(--text-glow);
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        
+        h2 {
+            font-size: 2.2rem;
+            border-bottom: 2px solid var(--neon-blue);
+            padding-bottom: 0.5rem;
+            display: inline-block;
+            margin-top: 2rem;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            color: var(--neon-blue);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: 
+                radial-gradient(circle at center, rgba(157, 0, 255, 0.2) 0%, transparent 50%),
+                linear-gradient(135deg, rgba(10, 10, 22, 0.9) 0%, rgba(30, 10, 50, 0.7) 100%);
+            border-radius: 15px;
+            margin-bottom: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                linear-gradient(90deg, transparent, rgba(0, 243, 255, 0.1), transparent);
+            animation: scan 8s linear infinite;
+        }
+        
+        @keyframes scan {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            color: #b0b0ff;
+            margin-bottom: 2rem;
+        }
+        
+        /* GitHub Logo */
+        .github-logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 2rem;
+            color: white;
+            text-shadow: 0 0 10px var(--neon-blue);
+            transition: all 0.3s;
+        }
+        
+        .github-logo:hover {
+            color: var(--neon-blue);
+            transform: scale(1.1);
+        }
+        
+        /* Section Dividers */
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--neon-blue), var(--neon-pink), transparent);
+            margin: 3rem 0;
+            position: relative;
+        }
+        
+        .section-divider::before, .section-divider::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: var(--neon-blue);
+            border-radius: 50%;
+            top: -4px;
+            box-shadow: 0 0 10px var(--neon-blue);
+        }
+        
+        .section-divider::before {
+            left: 0;
+        }
+        
+        .section-divider::after {
+            right: 0;
+        }
+        
+        /* Content Cards */
+        .card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(0, 243, 255, 0.2);
+            box-shadow: 0 0 20px rgba(0, 243, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 243, 255, 0.2);
+        }
+        
+        /* Profile Section */
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .profile-image {
+            flex: 0 0 250px;
+            height: 250px;
+            border-radius: 10px;
+            background: 
+                linear-gradient(45deg, var(--neon-purple), var(--neon-blue));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            border: 3px solid rgba(0, 243, 255, 0.5);
+            box-shadow: 0 0 20px rgba(0, 243, 255, 0.3);
+        }
+        
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        .profile-image::before {
+            content: 'Ishan Maitra';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: bold;
+            color: var(--neon-blue);
+            text-shadow: 0 0 5px var(--neon-blue);
+        }
+        
+        .profile-content {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .vision-quote {
+            font-style: italic;
+            background: rgba(0, 243, 255, 0.1);
+            padding: 1rem;
+            border-left: 3px solid var(--neon-blue);
+            margin: 1rem 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        /* Project Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .project-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 1.5rem;
+            border: 1px solid rgba(157, 0, 255, 0.3);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--neon-purple), var(--neon-pink));
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(157, 0, 255, 0.2);
+        }
+        
+        .project-card h3 {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .project-card h3::before {
+            content: '▹';
+            color: var(--neon-pink);
+            margin-right: 0.5rem;
+        }
+        
+        .project-tag {
+            display: inline-block;
+            background: rgba(157, 0, 255, 0.2);
+            color: var(--neon-purple);
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Testimonial */
+        .testimonial {
+            background: linear-gradient(135deg, rgba(0, 243, 255, 0.1), rgba(157, 0, 255, 0.1));
+            border-left: 4px solid var(--neon-blue);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            position: relative;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .testimonial::before {
+            content: '"';
+            font-size: 4rem;
+            color: var(--neon-blue);
+            position: absolute;
+            top: -1rem;
+            left: 0.5rem;
+            opacity: 0.3;
+        }
+        
+        .testimonial-author {
+            text-align: right;
+            font-weight: bold;
+            margin-top: 1rem;
+            color: var(--neon-blue);
+        }
+        
+        /* Achievements */
+        .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .achievement {
+            flex: 1;
+            min-width: 200px;
+            background: rgba(0, 243, 255, 0.05);
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+            border: 1px solid rgba(0, 243, 255, 0.2);
+            transition: all 0.3s;
+        }
+        
+        .achievement:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 243, 255, 0.2);
+        }
+        
+        /* Signature */
+        .signature {
+            text-align: center;
+            margin: 3rem 0;
+            padding: 2rem;
+            background: rgba(0, 243, 255, 0.05);
+            border-radius: 10px;
+            border: 1px solid rgba(0, 243, 255, 0.2);
+        }
+        
+        .signature-name {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 2.5rem;
+            color: var(--neon-blue);
+            margin: 1rem 0;
+            text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(0, 243, 255, 0.2);
+            color: #a0a0ff;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .profile {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .profile-image {
+                flex: 0 0 200px;
+                height: 200px;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .github-logo {
+                position: relative;
+                top: 0;
+                right: 0;
+                margin-bottom: 1rem;
+            }
+        }
+        
+        /* Glowing Effects */
+        .glow {
+            text-shadow: 0 0 5px currentColor;
+        }
+        
+        .neon-text {
+            color: var(--neon-blue);
+            text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue);
+        }
+        
+        /* Image Placeholder Styling */
+        .image-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(157, 0, 255, 0.3), rgba(0, 243, 255, 0.3));
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .image-placeholder i {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: var(--neon-blue);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- GitHub Logo -->
+        <a href="https://github.com" class="github-logo" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        
+        <!-- Header Section -->
+        <header class="header">
+            <h2>GitHub Article</h2>
+            <h1>The Founder of Maitra Web Tech</h1>
+            <p class="subtitle">The Journey of Ishan Maitra — AI & Cloud Developer at Google Cloud | Founder of Maitra Web Tech | Youngest AI Developer of GitHub</p>
+        </header>
+        
+        <!-- About the Founder -->
+        <section>
+            <h2>About the Founder</h2>
+            <div class="section-divider"></div>
+            
+            
+                    <div class="profile-content">
+                        <p>Ishan Maitra is the Founder & CEO of Maitra Web Tech, a company pioneering futuristic website design, AI-powered tools, and next-generation cloud solutions. At just 13, he has already made a mark in the tech world, being recognized as one of the youngest AI and Cloud Developers contributing to Google Cloud research projects. With a vision to merge imagination and technology, Ishan is building systems that not only push the boundaries of innovation but also empower the next generation to dream bigger, create smarter, and shape a future where technology serves as a true force of empowerment.</p>
+                        <div class="vision-quote">
+                            <strong>His vision:</strong> "To Develop to Empower."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Family & Support -->
+        <section>
+            <h2>Family & Support</h2>
+            <div class="section-divider"></div>
+            
+            <div class="card">
+                <p>Ishan’s journey has been deeply supported by his parents — Sanjay Maitra (Father) and Subhra Maitra (Mother). Their constant encouragement, guidance, and belief in his abilities have formed the foundation of his growth in both academics and technology. From nurturing his curiosity at a young age to motivating him to chase ambitious goals, they have played a pivotal role in shaping his vision, discipline, and determination to innovate. Their unwavering support continues to be the driving force behind his achievements and aspirations.</p>
+            </div>
+        </section>
+        
+        <!-- Major Projects -->
+        <section>
+            <h2>Major Projects</h2>
+            <div class="section-divider"></div>
+            
+            <h3>Real & Active Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Maitra Web Tech Portfolio Websites</h3>
+                    <p>Animated premium websites for businesses with cutting-edge design.</p>
+                    <span class="project-tag">Web Design</span>
+                    <span class="project-tag">Animation</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>NexaTools.com</h3>
+                    <p>AI-powered online tools hub for productivity and creativity.</p>
+                    <span class="project-tag">AI Tools</span>
+                    <span class="project-tag">Web App</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>KHS AI</h3>
+                    <p>Multilingual school chatbot for educational support.</p>
+                    <span class="project-tag">Chatbot</span>
+                    <span class="project-tag">Education</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Maitra GPT</h3>
+                    <p>Full-stack AI chatbot powered by DeepSeek AI.</p>
+                    <span class="project-tag">AI</span>
+                    <span class="project-tag">Full-Stack</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Maitra Jarvis</h3>
+                    <p>Console-inspired AI with holographic effects and advanced capabilities.</p>
+                    <span class="project-tag">AI Assistant</span>
+                    <span class="project-tag">Holographics</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Advanced Weather App</h3>
+                    <p>AI-driven JavaScript weather system with predictive analytics.</p>
+                    <span class="project-tag">Weather</span>
+                    <span class="project-tag">AI Analytics</span>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 2rem;">Futuristic Google Cloud Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project SkyNetX</h3>
+                    <p>Google Cloud AI system for ultra-large language processing.</p>
+                    <span class="project-tag">Google Cloud</span>
+                    <span class="project-tag">LLM</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>QuantumEdge Compute</h3>
+                    <p>Cloud-native quantum computing platform for complex simulations.</p>
+                    <span class="project-tag">Quantum</span>
+                    <span class="project-tag">Cloud</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>NebulaVision</h3>
+                    <p>AI-powered visualization of billion-parameter datasets.</p>
+                    <span class="project-tag">Data Viz</span>
+                    <span class="project-tag">AI</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>AuroraChain</h3>
+                    <p>Next-gen blockchain secured by Google Cloud AI.</p>
+                    <span class="project-tag">Blockchain</span>
+                    <span class="project-tag">Security</span>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 2rem;">Futuristic Concepts</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>MaitraOS</h3>
+                    <p>A futuristic AI-based operating system concept.</p>
+                    <span class="project-tag">OS</span>
+                    <span class="project-tag">Concept</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Cloudverse</h3>
+                    <p>A fully AI-generated 3D internet experience.</p>
+                    <span class="project-tag">3D Web</span>
+                    <span class="project-tag">Metaverse</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>ZeroPoint AI</h3>
+                    <p>Quantum-inspired AI framework for limitless creativity.</p>
+                    <span class="project-tag">Quantum AI</span>
+                    <span class="project-tag">Framework</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- What Google Cloud Says -->
+        <section>
+            <h2>What Google Cloud Says About Ishan</h2>
+            <div class="section-divider"></div>
+            
+            <div class="testimonial">
+                <p>"Ishan Maitra is one of the youngest innovators we have ever collaborated with. His contributions to AI, cloud, and futuristic computing are truly remarkable. His projects like Maitra GPT and CloudVerse represent the future of cloud-native AI solutions."</p>
+                <p class="testimonial-author">– Google Cloud Research Team</p>
+            </div>
+        </section>
+        
+        <!-- Achievements -->
+        <section>
+            <h2>Achievements</h2>
+            <div class="section-divider"></div>
+            
+            <div class="card">
+                <div class="achievements">
+                    <div class="achievement">
+                        <h3>GitHub Trending</h3>
+                        <p>Multiple repositories trending in developer communities</p>
+                    </div>
+                    <div class="achievement">
+                        <h3>Youngest AI Developer</h3>
+                        <p>Recognized as one of the youngest AI developers at Google Cloud</p>
+                    </div>
+                    <div class="achievement">
+                        <h3>Futuristic AI Events</h3>
+                        <p>Featured speaker at cutting-edge technology conferences</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Future Vision -->
+        <section>
+            <h2>Future Vision</h2>
+            <div class="section-divider"></div>
+            
+            <div class="card" style="text-align: center; background: linear-gradient(135deg, rgba(157, 0, 255, 0.1), rgba(0, 243, 255, 0.1));">
+                <blockquote style="font-size: 1.5rem; font-style: italic; margin: 1rem 0;">
+                    "I am building systems that merge imagination with technology — creating a bridge between dreams and reality. Through AI, cloud innovation, and futuristic design, I aim to empower the next generation with tools that inspire creativity, accelerate progress, and redefine what’s possible."
+                </blockquote>
+                <p style="font-weight: bold; color: var(--neon-blue);">– Ishan Maitra</p>
+            </div>
+        </section>
+        
+        <!-- Signature -->
+        <section class="signature">
+            <p>Digitally Signed,</p>
+            <div class="signature-name">Ishan Maitra</div>
+            <p>Founder, Maitra Web Tech</p>
+            <p>Youngest AI Developer of GitHub</p>
+	<p>Cloud & AI Developer of Google</p>        
+</section>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2025 GitHub. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Add interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add glow effect to project cards on hover
+            const projectCards = document.querySelectorAll('.project-card');
+            
+            projectCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.boxShadow = '0 0 20px rgba(157, 0, 255, 0.4)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.boxShadow = '';
+                });
+            });
+            
+            // Add pulsing effect to signature
+            const signature = document.querySelector('.signature-name');
+            
+            function pulseSignature() {
+                signature.style.textShadow = '0 0 15px rgba(0, 243, 255, 0.8)';
+                setTimeout(() => {
+                    signature.style.textShadow = '0 0 10px rgba(0, 243, 255, 0.5)';
+                }, 1000);
+            }
+            
+            setInterval(pulseSignature, 2000);
+            
+            // Add scan animation to header
+            const header = document.querySelector('.header');
+            let scanPosition = -100;
+            
+            function scanAnimation() {
+                scanPosition += 0.5;
+                if (scanPosition > 100) scanPosition = -100;
+                
+                header.style.background = 
+                    `radial-gradient(circle at center, rgba(157, 0, 255, 0.2) 0%, transparent 50%),
+                    linear-gradient(135deg, rgba(10, 10, 22, 0.9) 0%, rgba(30, 10, 50, 0.7) 100%),
+                    linear-gradient(90deg, transparent ${scanPosition - 10}%, rgba(0, 243, 255, 0.1) ${scanPosition}%, transparent ${scanPosition + 10}%)`;
+                
+                requestAnimationFrame(scanAnimation);
+            }
+            
+            scanAnimation();
+        });
+    </script>
+</body>
+</html>
